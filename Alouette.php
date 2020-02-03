@@ -1,5 +1,6 @@
 <?php
 class Alouette {
+
 	/** Méthode titre
 	 * Retourne le titre tel qu'affiché dans le head et le h1 de la page
 	 * @param string $oiseau - Le nom de l'oiseau (Alouette)
@@ -81,6 +82,16 @@ class Alouette {
 	 * @uses appelReponse
 	 * @return string
 	 */
+	static public function actionMembre() {
+		$resultat ='';
+		$resultat .='<div class="appel">Je te plumerai la tête</div>
+		';
+		$resultat .='<div class="reponse">Je te plumerai la tête</div>';
+		
+		return $resultat;
+	
+	}
+
 
 
 }

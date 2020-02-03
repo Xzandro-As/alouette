@@ -1,3 +1,4 @@
+<?php include('../Alouette.php')?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -9,7 +10,7 @@
 
 <body>
 	<div id="app">
-		<header>Ma ritournelle</header>
+		<header>GITHUB Ma ritournelle</header>
 		<footer>Intégration Web 3</footer>
 		<nav>
 			<ul>
@@ -34,8 +35,9 @@
 							<div>Alouette, je te plumerai.</div>
 						</div>
 					</div>
-					<div class="appel">Je te plumerai la tête</div>
-					<div class="reponse">Je te plumerai la tête</div>
+
+					<?php echo Alouette::actionMembre(); ?> 
+
 					<div class="appel">Et la tête</div>
 					<div class="reponse">Et la tête</div>
 					<div class="appel">Alouette</div>
